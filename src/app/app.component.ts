@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'El Ahorcado - Juego';
 
-  palabra= "PROGRAMACION";
+  palabra= "CORAZONES";
   palabraOculta= "";
 
   intentos= 0;
@@ -48,7 +48,7 @@ export class AppComponent {
         this.gano = true;
         console.info("usuario GANO")
       }
-      if (this.intentos >= 12){
+      if (this.intentos >= 9){
         this.perdio= true;
         console.error("Usuario PERDIO")
       }
